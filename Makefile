@@ -16,11 +16,7 @@ build:
 	@echo building to bin/serve
 	@go build $(LDFLAGS) -o ./bin/serve
 
-install:
-	@echo copying bin/serve to $(HOME)/bin/serve
-	@mv ./bin/serve $(HOME)/bin/serve
-
 test:
 	@go test -cover -v ./...
 
-.PHONY: build install test
+.PHONY: build test

@@ -11,22 +11,20 @@ This application is a simple static file server that serves files from either th
 
 ## Installation
 
+### Binaries
+
 `serve` is available on Linux, macOS and Windows platforms.
 Binaries for Linux, Windows and Mac are available as tarballs in the [release page](https://github.com/softwarespot/serve/releases).
 
-### Local
+### Go Install
 
-Build the binary `serve` executable to the directory `./bin` i.e. `./bin/serve`.
-
-```bash
-make
-```
-
-Install i.e. copy the executable `./bin/serve` to `$HOME/bin` (if it exists).
+Install to the Go `bin` directory e.g. `$HOME/go/bin/`.
 
 ```bash
-make install
+go install github.com/softwarespot/serve@latest
 ```
+
+## Usage
 
 ### Serve
 
