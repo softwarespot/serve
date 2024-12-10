@@ -6,8 +6,8 @@ This application is a simple static file server that serves files from either th
 
 ## Prerequisites
 
--   go 1.23.0 or above
--   make (if you want to use the `Makefile` provided)
+- go 1.23.0 or above
+- make (if you want to use the `Makefile` provided)
 
 ## Installation
 
